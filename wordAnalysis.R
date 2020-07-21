@@ -15,21 +15,21 @@ library(data.table)
 library(tidytext)
 library(topicmodels)
 
-api_key <- "KeuRqYmscMaYYm3JoPp3Izl5y"
-api_secret_key <- "69z1ytMqwCbcBRqqowFRbcHcipi7U6qQFhItt2geVAK8gBT5nJ"
-access_token <- "4052336744-mAZn7yMEvijXVpk86Ap1kWXGVveSluAQbG6Q7oI"
-access_token_secret <- "t0u0jl1qun5hmHR2wsRueSFwuOjkKcrQTAZW8BhrOSO65"
+#api_key <- "xxxxxxx"
+#api_secret_key <- "xxxxxxxxx"
+#access_token <- "xxxxxxxx"
+#access_token_secret <- "xxxxxxx"
 
 ## authenticate link via browser
-token <- create_token(
-  app <- 'meyennTwit',
-  consumer_key = api_key,
-  consumer_secret = api_secret_key,
-  access_token = access_token,
-  access_secret = access_token_secret)
+#token <- create_token(
+#  app <- 'xxxxxxxx',
+#  consumer_key = api_key,
+#  consumer_secret = api_secret_key,
+#  access_token = access_token,
+#  access_secret = access_token_secret)
 
 ## check token ok
-get_token()
+#get_token()
 
 ### AIM: Comparison of Trump and Bidens Tweets
 ### 21/7/2020
